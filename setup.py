@@ -1,4 +1,10 @@
-
+# -*- coding: utf-8 -*-
+#
+# Copyright (C) Pootle contributors.
+#
+# This file is a part of the Pootle project. It is distributed under the GPL3
+# or later license. See the LICENSE file for a copy of the license and the
+# AUTHORS file for copyright and authorship information.
 
 from setuptools import setup, find_packages
 
@@ -20,4 +26,4 @@ setup(
         'Programming Language :: Python :: 2.7'],
     keywords='pootle index search elasticsearch haystack',
     packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
-    install_requires=['django-haystack', 'pootle'])
+    install_requires=['django-haystack==2.4.1', 'pootle'])
