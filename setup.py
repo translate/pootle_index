@@ -26,4 +26,4 @@ setup(
         'Programming Language :: Python :: 2.7'],
     keywords='pootle index search elasticsearch haystack',
     packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
-    install_requires=['django-haystack==2.8.0', 'pootle'])
+    install_requires=['django-haystack==2.8.1', 'pootle'])
